@@ -81,13 +81,13 @@ ul{
         }
        
 
-hero-button:hover{
+.hero-button:hover{
         background-color: #404bbf;
         color:#fff;
 
     }
 
-hero-button:focus{
+.hero-button:focus{
   background-color:#404bbf;
 color: #fff;
 }

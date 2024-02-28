@@ -78,19 +78,18 @@ ul{
         color: #fff;
         background: #4d5ae5;
         cursor: pointer
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+        
        
 
 hero-button:hover{
         background-color: #404bbf;
-        box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-     
+        color:#fff;
 
     }
 
 hero-button:focus{
   background-color:#404bbf;
-box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+color: #fff;
 }
 
 .about-us {

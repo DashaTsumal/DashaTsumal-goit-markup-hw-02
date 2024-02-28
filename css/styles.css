@@ -77,11 +77,13 @@ ul{
         letter-spacing: 0.04em;
         color: #fff;
         background: #4d5ae5;
+        cursor: pointer
 }
 
 hero-button:hover,
 hero-button:focus{
-    background: #404bbf;
+    background-color: #404BBF;
+
 }
 
 .about-us {
@@ -118,6 +120,10 @@ color: #fff;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+}
+
+.team{
+background-color: #FFFFFF;
 }
 
 .person-name {

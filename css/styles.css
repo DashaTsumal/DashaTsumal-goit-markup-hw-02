@@ -18,6 +18,23 @@ ul{
     margin: 0;
 }
 
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
 .container{
 width: 1158px;
 padding-left: 15px;
@@ -152,6 +169,15 @@ margin-left: auto;
 color: #fff;
 }
 
+
+
+
+.team{
+    display: flex;
+    glex-direction: row;
+    gap: 24px;
+}
+
 .about-us {
 color: #fff;
 width: 1440px;
@@ -159,6 +185,11 @@ height: 732px;
 padding-top: 120px;
 padding-bottom: 120px;
 }
+
+
+
+
+
 
 .text-box{
 gap: 24px;
@@ -187,6 +218,7 @@ display: flex;
 
 .section-team {
     background: #f4f4fd;
+    padding: 120px 0;
 }
 
 .section-titel {
@@ -197,12 +229,18 @@ display: flex;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
 }
-
-
 
 .our-team{
     background-color: #FFF;
+    border-radius: 0 0 4px 4px;
+        width: calc((100%-72px)/4);
+}
+.card-info {
+    border-radius: 0 0 4px 4px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .person-name {
@@ -212,16 +250,20 @@ display: flex;
         letter-spacing: 0.02em;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .person-job {
     font-size: 16px;
-        line-height: 150%;
+        line-height: 1.5;
         letter-spacing: 0.02em;
         text-align: center;
         color: #434455;
 }
-
+<!--secnion portfolio-->
+.portfolio{
+    padding: 120px 0 120px 0;
+}
 .portfolio-titel {
     
         font-weight: 700;
@@ -231,6 +273,24 @@ display: flex;
         text-transform: capitalize;
         text-align: center;
         color: #2e2f42;
+        margin-bottom: 72px;
+}
+
+.portfolio-list{
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
+}
+
+.portfolio-list-item{
+    width: calc((100%-48px)/3);
+}
+
+.container-portfolio{
+    padding: 32px 16px;
+    border-bottom: 1px solid #e7e9fc;
+    border-top: none;
 }
 
 .subtitle {
@@ -239,10 +299,12 @@ display: flex;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .descr {
     font-size: 16px;
+    font-weight: 400;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #434455;
@@ -250,6 +312,9 @@ display: flex;
 
 .footer {
     background: #2e2f42;
+    width: 1140px;
+    height: 312px;
+    padding: 100px 0;
 }
 
 .link-logo {
@@ -260,14 +325,17 @@ display: flex;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+
 }
 
 .footer-part{
     color: #f4f4fd;
+    display: inline-block;
 }
 
 .footer-descr {
     line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 264px;
 }

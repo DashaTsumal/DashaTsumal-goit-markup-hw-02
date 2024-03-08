@@ -37,8 +37,8 @@ p {
 
 .container{
 width: 1158px;
-padding: 0 15px;
-margin: 0 auto;
+padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .navigation{
@@ -79,7 +79,7 @@ align-items: center;
 .nav-list{
     display: flex;
     gap: 40px;
-padding: 24px 0;
+ padding: 24px 0;
 }
 
 .nav-link {
@@ -276,8 +276,7 @@ display: flex;
 }
 <!--secnion portfolio-->
 .portfolio{
-padding-top: 120px;
-    padding-bottom: 120px;
+padding: 120px 0;
 }
 
 .container{

@@ -12,7 +12,7 @@ a{
 }
 
 
-ul{
+ul,li {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -44,7 +44,7 @@ padding: 0 15px;
 .navigation{
     display: flex;
     align-items: center;
-    padding: 24px 0;
+    
 }
 
 .header-container{
@@ -78,7 +78,7 @@ padding: 24px 0;
 .nav-list{
     display: flex;
     gap: 40px;
- padding: 24px 0;
+
 }
 
 .nav-link {
@@ -90,6 +90,8 @@ padding: 24px 0;
         color: #2e2f42;
         padding-top: 24px 0;
         padding-bottom: 24px 0;
+        padding: 24px 0;
+        display: block;
 }
 
 .nav-link:hover,
@@ -105,7 +107,7 @@ margin-left: auto;
 .adress-list{ 
     display: flex;
     gap:  40px;
-    padding-top: 24px;
+   
 }
 .address-link {
         
@@ -275,7 +277,7 @@ display: flex;
 }
 <!--section portfolio-->
  .portfolio{
- padding: 120px 0 120px 0;
+ padding: 120px 0;
 }
 
 
@@ -328,9 +330,7 @@ row-gap: 48px;
 
 .footer {
     background: #2e2f42;
-    width: 1140px;
-    height: 312px;
-    padding: 100px 0;
+        padding: 100px 0;
 }
 
 .link-logo {

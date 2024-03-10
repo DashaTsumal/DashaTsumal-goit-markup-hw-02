@@ -50,6 +50,7 @@ padding: 0 15px;
 .header-container{
 display: flex;
 align-items: center;
+margin: 0 auto;
 }
 
 .page-header{
@@ -124,8 +125,7 @@ margin-left: auto;
 .hero-section {
     background-color: #2e2f42;
     width: 1440px;
-        height: 600px;
-        padding-top: 188px;
+         padding-top: 188px;
         padding-bottom: 188px;
 
 }
@@ -189,14 +189,12 @@ color: #fff;
 
 .team{
     display: flex;
-    glex-direction: row;
+    flex-direction: row;
     gap: 24px;
 }
 
 .about-us {
-color: #fff;
-width: 1440px;
-height: 732px;
+
 padding-top: 120px;
 padding-bottom: 120px;
 }
@@ -212,7 +210,7 @@ display: flex;
 }
 
 .box-benefit{
-    width: calc((100%-72px)/4);
+    width: calc( ( 100% - 72px) / 4);
 }
 .benefit-titel {
            font-weight: 500;
@@ -307,7 +305,7 @@ row-gap: 48px;
 
 .container-portfolio{
     padding: 32px 16px;
-    border-bottom: 1px solid #e7e9fc;
+    border: 1px solid #e7e9fc;
     border-top: none;
 }
 

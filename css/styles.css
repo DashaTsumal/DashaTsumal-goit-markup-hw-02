@@ -274,7 +274,7 @@ display: flex;
         color: #434455;
 }
 <!--section portfolio-->
-.portfolio{
+.container .portfolio{
 padding-top: 120px;
     padding-bottom: 120px;
 }

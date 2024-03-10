@@ -38,7 +38,7 @@ p {
 .container{
 width: 1158px;
 margin: 0 auto;
-padding: 0 15px 0 15px;
+padding: 0 15px;
 }
 
 .navigation{
@@ -67,7 +67,7 @@ align-items: center;
     text-transform: uppercase;
     color: #4D5AE5;
     margin-right: 76px;
-padding: 24px 0 24px;
+padding: 24px 0;
 
 }
 
@@ -275,12 +275,11 @@ display: flex;
 }
 <!--secnion portfolio-->
 .portfolio{
-padding: 120px 0 120px 0;
+padding-top: 120px;
+    padding-bottom: 120px;
 }
 
-.container{
-padding: 120px 0 120px 0;
-}
+
 
 .portfolio-titel {
     
